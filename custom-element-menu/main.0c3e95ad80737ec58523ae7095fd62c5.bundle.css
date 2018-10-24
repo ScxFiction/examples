@@ -1,0 +1,127 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 1.3125;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+@media screen and (min-width: 360px) {
+	html, body {
+		font-size: 15px
+	}
+}
+@media screen and (min-width: 600px) {
+	html, body {
+		font-size: 16px
+	}
+}
+nav, demo-menu {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1, h2, h3 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h2 {
+	font-size: 1.5rem;
+    border-bottom: 5px solid darkgrey;
+    line-height: 2em;
+}
+h3 {
+	font-size: 1.15rem;
+}
+p {
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.menu-m__root__34HPG {
+	width: 100%;
+	top: 0;
+	height: 48px;
+	z-index: 100;
+	background-color: #1d1f20;
+}
+
+.menu-m__menuContainer__1lZUl {
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu-m__home__3ExrL {
+	float: left;
+	cursor: pointer;
+}
+
+.menu-m__logo__2cdP4 {
+	height: 38px;
+	padding: 4px;
+}
+.menuItem-m__root__3nC3w {
+	height: 100%;
+	display: inline-block;
+}
+
+.menuItem-m__item__2otQ- {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 6.4px;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	height: 48px;
+	cursor: pointer;
+}
+
+.menuItem-m__item__2otQ-::after {
+	display: block;
+	content: "";
+	background: #fff;
+	height: 2px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	-webkit-transition: -webkit-transform .3s ease-out;
+	transition: -webkit-transform .3s ease-out;
+	transition: transform .3s ease-out;
+	transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+	-webkit-transform: translateY(3px);
+	        transform: translateY(3px);
+}
+
+.menuItem-m__selected__3H86O::after {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+}
+
+/*# sourceMappingURL=main.0c3e95ad80737ec58523ae7095fd62c5.bundle.css.map*/

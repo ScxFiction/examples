@@ -1,0 +1,72 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */
+:root {
+	--selected-background: #34495e;
+	--selected-color: #fff;
+	--disabled-color: #bbb;
+	--component-background: #fff;
+	--component-color: #424242;
+	--underlay-background: rgba(66, 66, 66, 0.3);
+	--underlay-background: rgba(66, 66, 66, 0.3);
+
+	--error-color: red;
+	--success-color: green;
+
+	--short-animation-duration: .2s;
+	--short-animation-easing: ease;
+
+	/* Z-index levels */
+	--zindex-base: 0;
+	--zindex-tooltip: 100;
+	--zindex-dropdown: 200;
+	--zindex-fixed: 300;
+	--zindex-dialog: 400;
+	--zindex-alert: 500;
+}
+
+.listbox-m__root__16vSB {
+	border: 1px solid #424242;
+	border: 1px solid var(--component-color);
+	background: #fff;
+	background: var(--component-background);
+	max-height: 400px;
+	overflow-y: auto;
+	position: relative;
+}
+
+.listbox-m__focused__3M-za {}
+
+.listbox-m__option__MMFTf {
+	cursor: pointer;
+}
+
+.listbox-m__focused__3M-za .listbox-m__activeOption__1FTY-,
+.listbox-m__root__16vSB:focus .listbox-m__activeOption__1FTY- {
+	-webkit-box-shadow: inset 0 0 1px 0 #fff;
+	        box-shadow: inset 0 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 0 1px 0 var(--component-background);
+	        box-shadow: inset 0 0 1px 0 var(--component-background);
+	outline: 4px auto #34495e;
+	outline: 4px auto var(--selected-background);
+}
+
+.listbox-m__disabledOption__275oq {
+	background-color: #bbb;
+	background-color: var(--disabled-color);
+	cursor: default;
+}
+
+.listbox-m__selectedOption__13tNG {
+	background-color: #34495e;
+	background-color: var(--selected-background);
+	color: #fff;
+	color: var(--selected-color);
+}
+
+/*# sourceMappingURL=listbox-4.0.0.css.map*/

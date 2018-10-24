@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dgrid@1.2.1",
+        "scope": null,
+        "escapedName": "dgrid",
+        "name": "dgrid",
+        "rawSpec": "1.2.1",
+        "spec": "1.2.1",
+        "type": "version"
+      },
+      "/home/travis/build/dojo/examples/dgrid-wrapper"
+    ]
+  ],
+  "_from": "dgrid@1.2.1",
+  "_id": "dgrid@1.2.1",
+  "_inCache": true,
+  "_location": "/dgrid",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dgrid-1.2.1.tgz_1498849853391_0.19073046278208494"
+  },
+  "_npmUser": {
+    "name": "sitepen",
+    "email": "labs@sitepen.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dgrid@1.2.1",
+    "scope": null,
+    "escapedName": "dgrid",
+    "name": "dgrid",
+    "rawSpec": "1.2.1",
+    "spec": "1.2.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@dojo/interop"
+  ],
+  "_resolved": "https://registry.npmjs.org/dgrid/-/dgrid-1.2.1.tgz",
+  "_shasum": "d75579908777b1cccf996090c87b3575e3c73724",
+  "_shrinkwrap": null,
+  "_spec": "dgrid@1.2.1",
+  "_where": "/home/travis/build/dojo/examples/dgrid-wrapper",
+  "author": {
+    "name": "Kris Zyp"
+  },
+  "bugs": {
+    "url": "https://github.com/SitePen/dgrid/issues"
+  },
+  "dependencies": {},
+  "description": "A lightweight, mobile-ready, data-driven, modular widget designed for lists and grids",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-stylus": "~0.20",
+    "grunt-contrib-watch": "~0.6.1",
+    "intern": "~3.0.6",
+    "nib": "~1.0.4"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "."
+  },
+  "dist": {
+    "shasum": "d75579908777b1cccf996090c87b3575e3c73724",
+    "tarball": "https://registry.npmjs.org/dgrid/-/dgrid-1.2.1.tgz"
+  },
+  "dojoBuild": "package.js",
+  "gitHead": "c7cf37a4907ceb855540a697a5582bdbba7cbd6c",
+  "homepage": "https://github.com/SitePen/dgrid#readme",
+  "icon": "http://packages.dojofoundation.org/images/dgrid.png",
+  "license": "BSD-3-Clause",
+  "main": "./OnDemandGrid",
+  "maintainers": [
+    {
+      "name": "sitepen",
+      "email": "labs@sitepen.com"
+    }
+  ],
+  "name": "dgrid",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SitePen/dgrid.git"
+  },
+  "scripts": {},
+  "version": "1.2.1"
+}

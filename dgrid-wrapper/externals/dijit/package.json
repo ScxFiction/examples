@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dijit@1.13.0",
+        "scope": null,
+        "escapedName": "dijit",
+        "name": "dijit",
+        "rawSpec": "1.13.0",
+        "spec": "1.13.0",
+        "type": "version"
+      },
+      "/home/travis/build/dojo/examples/dgrid-wrapper"
+    ]
+  ],
+  "_from": "dijit@1.13.0",
+  "_id": "dijit@1.13.0",
+  "_inCache": true,
+  "_location": "/dijit",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dijit-1.13.0.tgz_1506460856785_0.8914521681144834"
+  },
+  "_npmUser": {
+    "name": "sitepen",
+    "email": "labs@sitepen.com"
+  },
+  "_npmVersion": "5.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dijit@1.13.0",
+    "scope": null,
+    "escapedName": "dijit",
+    "name": "dijit",
+    "rawSpec": "1.13.0",
+    "spec": "1.13.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/dijit/-/dijit-1.13.0.tgz",
+  "_shasum": "42eceed26d5785d06323aa459306017684e74907",
+  "_shrinkwrap": null,
+  "_spec": "dijit@1.13.0",
+  "_where": "/home/travis/build/dojo/examples/dgrid-wrapper",
+  "bugs": {
+    "url": "http://bugs.dojotoolkit.org/"
+  },
+  "dependencies": {
+    "dojo": "1.13.0"
+  },
+  "description": "Dijit provides a complete collection of user interface controls based on Dojo, giving you the power to create web applications that are highly optimized for usability, performance, internationalization, accessibility, but above all deliver an incredible u",
+  "devDependencies": {},
+  "directories": {
+    "lib": "."
+  },
+  "dist": {
+    "integrity": "sha512-trzi45atc86S37/AtgcUC4akByxpqeKfoOftXlgrTSoM136tjcgLbWUYGjFkP3hk2APTDrYOCSa8xTjhp3YPpw==",
+    "shasum": "42eceed26d5785d06323aa459306017684e74907",
+    "tarball": "https://registry.npmjs.org/dijit/-/dijit-1.13.0.tgz"
+  },
+  "dojoBuild": "dijit.profile.js",
+  "gitHead": "7fe829faac3e838c2df769f683246af2c0ce355a",
+  "homepage": "http://dojotoolkit.org/",
+  "keywords": [
+    "JavaScript",
+    "Dojo",
+    "Widget"
+  ],
+  "license": "BSD-3-Clause OR AFL-2.1",
+  "main": "main",
+  "maintainers": [
+    {
+      "name": "dojotoolkit",
+      "email": "kitsonk@dojotoolkit.org"
+    },
+    {
+      "name": "sitepen",
+      "email": "labs@sitepen.com"
+    }
+  ],
+  "name": "dijit",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dojo/dijit.git"
+  },
+  "version": "1.13.0"
+}

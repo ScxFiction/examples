@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dojo-dstore@1.1.2",
+        "scope": null,
+        "escapedName": "dojo-dstore",
+        "name": "dojo-dstore",
+        "rawSpec": "1.1.2",
+        "spec": "1.1.2",
+        "type": "version"
+      },
+      "/home/travis/build/dojo/examples/dgrid-wrapper"
+    ]
+  ],
+  "_from": "dojo-dstore@1.1.2",
+  "_id": "dojo-dstore@1.1.2",
+  "_inCache": true,
+  "_location": "/dojo-dstore",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dojo-dstore-1.1.2.tgz_1498849953612_0.158822602359578"
+  },
+  "_npmUser": {
+    "name": "sitepen",
+    "email": "labs@sitepen.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dojo-dstore@1.1.2",
+    "scope": null,
+    "escapedName": "dojo-dstore",
+    "name": "dojo-dstore",
+    "rawSpec": "1.1.2",
+    "spec": "1.1.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@dojo/interop"
+  ],
+  "_resolved": "https://registry.npmjs.org/dojo-dstore/-/dojo-dstore-1.1.2.tgz",
+  "_shasum": "cee36999f3f807d1cffcfdf6157db0f2b237cde4",
+  "_shrinkwrap": null,
+  "_spec": "dojo-dstore@1.1.2",
+  "_where": "/home/travis/build/dojo/examples/dgrid-wrapper",
+  "author": {
+    "name": "Kris Zyp"
+  },
+  "bugs": {
+    "url": "https://github.com/SitePen/dstore/issues"
+  },
+  "dependencies": {
+    "dojo": "^1.9.0"
+  },
+  "description": "A data collection infrastructure",
+  "devDependencies": {
+    "intern-geezer": "^2",
+    "rql": "~0.3.3"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "dist": {
+    "shasum": "cee36999f3f807d1cffcfdf6157db0f2b237cde4",
+    "tarball": "https://registry.npmjs.org/dojo-dstore/-/dojo-dstore-1.1.2.tgz"
+  },
+  "dojoBuild": "package.js",
+  "gitHead": "6ea7947b0019dcf149836c10312877759a59b1fd",
+  "homepage": "https://github.com/SitePen/dstore#readme",
+  "license": "BSD-3-Clause",
+  "main": "./Store",
+  "maintainers": [
+    {
+      "name": "dojotoolkit",
+      "email": "kitsonk@dojotoolkit.org"
+    },
+    {
+      "name": "kriszyp",
+      "email": "kriszyp@gmail.com"
+    },
+    {
+      "name": "sitepen",
+      "email": "labs@sitepen.com"
+    }
+  ],
+  "name": "dojo-dstore",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SitePen/dstore.git"
+  },
+  "scripts": {},
+  "version": "1.1.2"
+}

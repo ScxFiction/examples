@@ -1,0 +1,85 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */
+:root {
+	--selected-background: #34495e;
+	--selected-color: #fff;
+	--disabled-color: #bbb;
+	--component-background: #fff;
+	--component-color: #424242;
+	--underlay-background: rgba(66, 66, 66, 0.3);
+	--underlay-background: rgba(66, 66, 66, 0.3);
+
+	--error-color: red;
+	--success-color: green;
+
+	--short-animation-duration: .2s;
+	--short-animation-easing: ease;
+
+	/* Z-index levels */
+	--zindex-base: 0;
+	--zindex-tooltip: 100;
+	--zindex-dropdown: 200;
+	--zindex-fixed: 300;
+	--zindex-dialog: 400;
+	--zindex-alert: 500;
+}
+
+.label-m__root__1Xn7G {}
+
+.label-m__readonly__79gMw {}
+
+.label-m__invalid__1HXQX {}
+
+.label-m__valid__3TeO8 {}
+
+.label-m__required__2a_lw {}
+
+.label-m__disabled__3gv9p {}
+
+.label-m__focused__2Qy2n {}
+
+.label-m__secondary__29UpR {}
+
+.label-m__required__2a_lw::after {
+	content: '*';
+	color: red;
+	color: var(--error-color);
+}
+.base-m__visuallyHidden__1AeWe {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+/* Allows visually hidden, focusable content to become visible when navigated to via keyboard */
+
+.base-m__visuallyHidden__1AeWe.base-m__focusable__1_qAN:active,
+.base-m__visuallyHidden__1AeWe.base-m__focusable__1_qAN:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+	white-space: inherit;
+}
+
+/* If you're using .hidden, you probably mean it. */
+
+.base-m__hidden__3QddU {
+	display: none !important;
+}
+
+/*# sourceMappingURL=label-4.0.0.css.map*/

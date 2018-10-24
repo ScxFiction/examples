@@ -1,0 +1,9 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */!function(e){var n=window.dojoWebpackJsonpdojo2_todo_mvc_tsx;window.dojoWebpackJsonpdojo2_todo_mvc_tsx=function(o,c,i){for(var u,a,f,s=0,l=[];s<o.length;s++)a=o[s],r[a]&&l.push(r[a][0]),r[a]=0;for(u in c)Object.prototype.hasOwnProperty.call(c,u)&&(e[u]=c[u]);for(n&&n(o,c,i);l.length;)l.shift()();if(i)for(s=0;s<i.length;s++)f=t(t.s=i[s]);return f};var o={},r={runtime:0};function t(n){if(o[n])return o[n].exports;var r=o[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,t),r.l=!0,r.exports}t.e=function(e){var n=r[e];if(0===n)return new Promise(function(e){e()});if(n)return n[2];var o=new Promise(function(o,t){n=r[e]=[o,t]});n[2]=o;var c=document.getElementsByTagName("head")[0],i=document.createElement("script");i.type="text/javascript",i.charset="utf-8",i.async=!0,i.timeout=12e4,t.nc&&i.setAttribute("nonce",t.nc),i.src=t.p+""+({main:"main"}[e]||e)+"."+{main:"cfd21f1f74762640cc1c"}[e]+".bundle.js";var u=setTimeout(a,12e4);function a(){i.onerror=i.onload=null,clearTimeout(u);var n=r[e];0!==n&&(n&&n[1](new Error("Loading chunk "+e+" failed.")),r[e]=void 0)}return i.onerror=i.onload=a,c.appendChild(i),o},t.m=e,t.c=o,t.d=function(e,n,o){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:o})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},t.p="",t.oe=function(e){throw console.error(e),e}}([]);
+//# sourceMappingURL=runtime.d41d8cd98f00b204e980.bundle.js.map
